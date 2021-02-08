@@ -1,0 +1,15 @@
+@media all and (max-width: 800px) {
+  .footer3 {
+    width: 100%;
+  }
+}
+
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  
+}
+
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px) {
+
+}
