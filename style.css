@@ -1,0 +1,393 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+header {
+  height: 900px;
+  background-image: url(unnamed.jpg);
+  background-size: cover;
+}
+.header-wrapper {
+  height: 200px;
+  width: 100%;
+  /* background-color: aqua; */
+  margin: 0 auto;
+}
+.header-wrapper img {
+  /* float: left; */
+  width: 250px;
+  padding-top: 50px;
+  padding-left: 130px;
+  transition: 0.5s;
+}
+.header-wrapper img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.sitanobubun {
+  width: 100%;
+  /* background-color: aqua; */
+  padding-top: 600px;
+}
+.menu {
+  float: right;
+  padding-top: 75px;
+  padding-right: 130px;
+  
+}
+.menu a {
+  color: white;
+  margin-left: 40px;
+  transition: 0.5s;
+}
+.menu a:hover {
+  border-bottom: 2px solid white;
+}
+.main {
+  height: 950px;
+  background-color: rgb(242,242,242);
+  text-align: center;
+}
+.top-p {
+  padding: 100px 0;
+  font-size: 50px;
+}
+.side-p {
+  text-align: left;
+  display: inline-block;
+  font-size: 20px;
+}
+.side-p2 {
+  text-align: left;
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 100px;
+}
+.paspol {
+  width: 200px;
+  padding: 50px 40px 50px 10px;
+}
+.product {
+  width: 800px;
+  height: 80px;
+  /* background-color: aqua; */
+  margin: 0 auto;
+  padding-top: 80px;
+}
+.product-icon {
+  width: 120px;
+}
+.more-white {
+  width: 120px;
+  border: 1px solid black;
+  float: right;
+  padding: 10px 0 10px 35px;
+  color: black;
+  transition: 0.5s;
+}
+.more-white:hover {
+  background-color: black;
+  color: white;
+}
+.product2 {
+  height: 1000px;
+  width: 765px;
+  /* background-color: brown; */
+  margin: 0 auto;
+}
+.image-1 {
+  /* background-color: aqua; */
+  width: 250px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.image-1:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.image-1-1 {
+  width: 250px;
+}
+.image-1 p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.image-2 {
+  /* background-color: aqua; */
+  width: 250px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.image-2:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.image-1-2 {
+  width: 250px;
+}
+.image-2 p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.image-3 {
+  /* background-color: aqua; */
+  width: 250px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.image-3:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.image-1-3 {
+  width: 250px;
+}
+.image-3 p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.image-4 {
+  /* background-color: aqua; */
+  width: 250px;
+  display: inline-block;
+  padding-top: 50px;
+  transition: 0.5s;
+}
+.image-4:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.image-1-4 {
+  width: 250px;
+}
+.image-4 p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.image-5 {
+  /* background-color: aqua; */
+  width: 250px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.image-5:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.image-1-5 {
+  width: 250px;
+}
+.image-5 p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.image-6 {
+  /* background-color: aqua; */
+  width: 250px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.image-6:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.image-1-6 {
+  width: 250px;
+}
+.image-6 p {
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.product3 {
+  width: 800px;
+  height: 80px;
+  /* background-color: aqua; */
+  margin: 0 auto;
+  padding-top: 80px;
+}
+.product4 {
+  height: 1000px;
+  width: 750px;
+  margin: 0 auto;
+  /* background-color: brown; */
+}
+.news-icon {
+  width: 70px;
+}
+.more-white2 {
+  width: 120px;
+  border: 1px solid black;
+  float: right;
+  padding: 10px 0 10px 35px;
+  color: black;
+  transition: 0.5s;
+}
+.more-white2:hover {
+  background-color: black;
+  color: white;
+}
+.news-image1 {
+  width: 300px;
+  float: left;
+  padding-right: 20px;
+}
+.product-news2 {
+  float: left;
+  width: 420px;
+}
+.main-text {
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 8px;
+}
+.hiduke {
+  font-size: 8px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.bun {
+  font-size: 11px;
+  padding-top: 8px;
+  padding-left: 10px;
+  /* padding-bottom: 30px; */
+}
+.product5 {
+  background-color: rgb(242,242,242);
+  height: 1300px;
+}
+.news-group, .news-group2, .news-group3, .news-group4 {
+  /* background-color: royalblue; */
+  height: 220px;
+  margin-bottom: 30px;
+  transition: 0.5s;
+}
+.news-group:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.news-group2:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.news-group3:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.news-group4:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.sns-link {
+  height: 110px;
+  text-align: center;
+  padding-top: 75px;
+}
+.sns-link a {
+  display: inline block;
+  margin: 10px;
+}
+.facebook {
+  border: 1px solid royalblue;
+  color:royalblue;
+  padding: 10px 10px;
+  transition: 0.5s;
+}
+.facebook:hover {
+  cursor: pointer;
+  color: white;
+  background-color: royalblue;
+}
+.Twitter {
+  color:skyblue;
+  border: 1px solid skyblue;
+  padding: 10px 10px;
+  transition: 0.5s;
+}
+.Twitter:hover {
+  cursor: pointer;
+  color: white;
+  background-color: skyblue;
+}
+.Bookmart {
+  color:rgb(71, 187, 233);
+  border: 1px solid rgb(71, 187, 233);
+  padding: 10px 10px;
+  transition: 0.5s;
+}
+.Bookmart:hover {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(71, 187, 233);
+}
+.footer1 {
+  background-color:lightslategray;
+  height: 70px;
+  text-align: center;
+  padding-top: 45px;
+}
+.footer1 a {
+  margin: 15px;
+  color: white;
+  transition: 0.5s;
+}
+.footer1 a:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+.footer2 {
+  background-color: rgb(91, 108, 124);
+  height: 140px;
+  width: 100%;
+}
+.footer2 p {
+  color: white;
+  float: right;
+  font-size: 7px;
+  padding-top: 60px;
+  /* padding-right: 560px; */
+}
+.footer-logo {
+  width: 100px;
+  padding-top: 19px;
+  /* padding-left: 560px; */
+}
+.footer3 {
+  /* background-color: springgreen; */
+  height: 140px;
+  width: 800px;
+  margin: 0 auto;
+}
+.yazirusi {
+  /* background-color: springgreen; */
+  display: block;
+  width: 50px;
+  margin: 110px auto;
+}
+.yazirusi:hover {
+  position: relative;
+  bottom: 7px;
+  cursor: pointer;
+}
